@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Insert</title>
+    </head>
+    <body>
+        <script>
+    // Criar uma função, passar a variavel
+    // Converter string binária em array
+    //window.onload = function() {
+   //console.log("string");
+  //};
+    function bin2dec (string) {
+        var decimal = +0;
+        var bin = +1;
+
+           for (var i = 0; i < string.length; i++) {
+               var cNum = +(string[string.length - i])
+           if (cNum === 1) {
+               decimal += bin;
+               }
+           bin *=2;            
+            }
+    console.log(decimal);
+    }
+    bin2dec("bin")
+         
+        </script>
+    </body>
+</html>
